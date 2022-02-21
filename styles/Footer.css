@@ -1,0 +1,127 @@
+.Footer{
+    background: black;
+}
+.footer_title{
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+}
+.remote_btn{
+    text-align: center;
+    font-size: 16px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 90%;
+}
+.apply_btn{
+    text-align: center;
+    font-size: 16px;
+    background: black;
+    border: white solid 1px;
+    border-radius: 2px;
+    height: 40px;
+    width: 90%;
+    color: white;
+
+}
+.foter_link{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.foter_link:hover{
+    text-decoration: underline;
+    transition: 0.8s ease-in-out;
+}
+.footerbtn_container{
+    padding-bottom: 80px;
+}
+.bottomfooter_text{
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    margin-left: 8px;
+}
+.bottomfooter_text:hover{
+    text-decoration: underline;
+    transition: 0.8s ease-in-out;
+}
+.social_icons{
+    color: rgb(160, 159, 159);
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+.copyright_title{
+    font-size: 16px;
+    color: white;
+    margin-left: 8px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.bottom_text_containerOne{
+    display: none;
+}
+.remote_arrow_icons, .apply_arrow_icons{
+    display: none;
+    
+}
+.remote_btn:hover .remote_arrow_icons{
+    display: inline-block;
+
+}
+.apply_btn:hover .apply_arrow_icons{
+    display: inline-block;
+
+    
+}
+.footer_title{
+    font-size: 34;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+@media only screen and (min-width: 300px)  and (max-width: 429px) {
+    .apply_btn{
+        margin-left: 37px;
+      }
+      .bottom_text_containerOne{
+        display: block;
+    }
+    .bottom_text_containertwo{
+        display: none;
+    }
+  }
+@media only screen and (min-width: 430px)  and (max-width: 575px) {
+    .apply_btn{
+        margin-left: 37px;
+      }
+      .bottom_text_containerOne{
+        display: block;
+    }
+    .bottom_text_containertwo{
+        display: none;
+    }
+  }
+  
+@media only screen and (min-width: 576px) and (max-width: 787px) {
+    .apply_btn{
+        margin-left: 20px;
+      }
+      .bottom_text_containerOne{
+        display: block;
+    }
+    .bottom_text_containertwo{
+        display: none;
+    }
+  }
+@media only screen and (min-width: 788px) and (max-width:991px) {
+    
+  }

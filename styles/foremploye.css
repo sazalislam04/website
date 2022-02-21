@@ -1,0 +1,633 @@
+/* -------------home banner section css start--------------- */
+/* #f4f4f6 */
+.employe_banner_section{
+    background-color: #f4f4f6;
+    padding-bottom: 15px;
+    
+    border-radius: 17px;
+}
+.employe_title{
+    color: #14a800;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 50px;
+}
+.employe_text{
+    color: #001e00;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.anchor_talkbtn{
+    display: flex;
+    flex-direction: row;
+}
+.talk_btn{
+    background-color: #14a800;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 20px 5px 20px;
+}
+.looking_anchor{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #14a800;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-align: start;
+    margin-top: 3px;
+}
+.looking_anchor:hover{
+    text-decoration: underline;
+    color: #14a800;
+}
+.employe_banner_img{
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 20px;
+}
+/* -------------home banner section css end--------------- */
+/* #f4f4f6; */
+/* -------------telant section css start--------------- */
+.talent_section{
+    padding-top: 80px;
+}
+.talent_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.talent_item{
+    background-color: #f4f4f6;
+    border-radius: 15px;
+    text-align: center;
+}
+.talent_title{
+    font-size: 34px;
+    font-weight: bold;
+    color: #001e00;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.talent_text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #001e00;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.talent_img{
+    width: 160px;
+    height: 160px;
+}
+/* -------------telant section css end--------------- */
+
+/* -------------barand section css start--------------- */
+.brand_section{
+    padding-top: 80px;
+}
+.brand_title{
+    font-size: 34px;
+    font-weight: bold;
+    color: #001e00;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.brand_description{
+    line-height: 22px;
+    font-size: 18px;
+    color: rgb(124, 124, 123);
+}
+.employe_brand_img{
+    width: 140px;
+    height: 56px;
+}
+/* -------------barand section css end--------------- */
+
+/* -------------expect section css start--------------- */
+.expact_section{
+    margin-left: 38px;
+    padding-top: 80px;
+}
+.expact_row{
+    background-color:  #f4f4f6;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+.expact_point_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    padding-top: 35px;
+}
+.expact_point{
+    display: flex;
+    flex-direction: row;
+}
+.expact_title{
+        font-size: 34px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 15px;
+    }
+.expact_text{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+.talk_two_btn{
+    background-color: #14a800;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 20px 5px 20px;
+}
+/* -------------expect section css end--------------- */
+
+/* -------------faq section css start--------------- */
+.faq_section{
+    margin-left: 35px;
+    padding-top: 80px;
+}
+.faq_row{
+    background-color:  #f4f4f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+
+}
+.fa_question{
+    color: #001e00;
+    padding-bottom: 5px;
+}
+.faq_title{
+    font-size: 30px;
+    color: #001e00;
+    font-weight: 600;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: start;
+}
+.faq_point_title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.faq_text{
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* -------------faq section css end--------------- */
+/* ---------------------joinwork section css-------------- */
+.join_img_foremploye{
+    width: 100%;
+    height: 100%;
+  border-radius: 10px;
+}
+.join_work_container_mobile{
+    /* margin-left: 30px; */
+    display: none;
+}
+.join_work_section{
+    width: 90%;
+    margin-left: 80px;
+}
+@media only screen and (min-width: 200px)  and (max-width: 429px) {
+    .anchor_talkbtn{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .employe_title{
+        color: #14a800;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 40px;
+    }
+    .employe_banner_img{
+        display: none;
+    }
+    .talk_btn{
+        padding: 5px 10px 5px 10px;
+        width: 50%;
+    }
+    .looking_anchor{
+        padding-top: 15px;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+    }
+    .talent_item{
+        background-color: #f4f4f6;
+        border-radius: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .talent_img{
+        width: 70px;
+        height: 70px;
+    }
+    .talent_text{
+        font-size: 16px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10px;
+    }
+    .talent_title{
+        line-height: 40px;
+    }
+    .brand_title{
+        line-height: 40px;
+    }
+    .employe_brand_img{
+        width: 90px;
+        height: 40px;
+    }
+    .expact_point_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        padding-top: 35px;
+    }
+    .expact_section{
+        margin-left: 0px;
+    }
+    .expact_title{
+        line-height: 40px;
+    }
+    .faq_section{
+        margin-left: 0px;
+    }
+    .join_work_container_mobile{
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+    .join_work_section{
+        display: none;
+    }
+
+ 
+  }
+@media only screen and (min-width: 430px)  and (max-width: 575px) {
+    .anchor_talkbtn{
+
+        padding-bottom: 30px;
+    }
+    .employe_title{
+        color: #14a800;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 40px;
+    }
+    .employe_banner_img{
+        display: none;
+    }
+    .talk_btn{
+        width: 50%;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+    }
+    .talent_item{
+        background-color: #2d8b20;
+        border-radius: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .talent_img{
+        width: 70px;
+        height: 70px;
+    }
+    .talent_text{
+        font-size: 18px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10px;
+    }
+    .talent_title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .brand_title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .expact_section{
+        margin-left: 0px;
+    }
+    .expact_point_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        padding-top: 35px;
+    }
+    .faq_section{
+        margin-left: 0px;
+    }
+    .join_work_container_mobile{
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .join_work_section{
+        display: none;
+    }
+  }
+  
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .join_work_section{
+        width: 87%;
+        margin-left: 50px;
+    }
+    .anchor_talkbtn{
+
+        padding-bottom: 30px;
+    }
+    .employe_title{
+        color: #14a800;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 45px;
+    }
+    .employe_banner_img{
+        display: none;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+    }
+    .talent_item{
+        background-color: #2d8b20;
+        border-radius: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .talent_img{
+        width: 70px;
+        height: 70px;
+    }
+    .talent_text{
+        font-size: 18px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10px;
+    }
+    .talent_title{
+        font-size: 30px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .brand_title{
+        font-size: 30px;
+        font-weight: bold;
+        color: #001e00;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .expact_point_div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        padding-top: 35px;
+    }
+
+    .faq_section{
+        margin-left: 0px;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .join_work_section{
+        width: 92%;
+        margin-left: 50px;
+    }
+    .employe_title{
+        color: #14a800;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 45px;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+    .employe_banner_img{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
+    }
+    .number_one{
+        display: block;
+        width: 100px;
+        height: 23px;
+        background-color: #001e00;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+    .number_two{
+        display: block;
+        width: 90px;
+        height: 23px;
+        background-color: #001e00;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+    .number_three{
+        display: block;
+        width: 90px;
+        height: 25px;
+        background-color: #001e00;
+        border-radius: 100%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width:1163px) {
+    .employe_title{
+        color: #14a800;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 45px;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+    .employe_banner_img{
+        width: 100%;
+        height: 250px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
+    }
+    .join_work_section{
+        width: 97%;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width:1164px) and (max-width: 3000px) {
+    .employe_title{
+        color: #14a800;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 0px;
+        line-height: 50px;
+    }
+    .talent_div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+    }
+    .number_one{
+        display: block;
+        width: 57px;
+        height: 25px;
+        background-color: #001e00;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+    .number_two{
+        display: block;
+        width: 57px;
+        height: 25px;
+        background-color: #001e00;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+    .number_three{
+        display: block;
+        width: 57px;
+        height: 25px;
+        background-color: #001e00;
+        border-radius: 100%;
+        margin-right: 15px;
+        text-align: center;
+        color: white;
+    }
+    .faq_section{
+    margin-left: 35px;
+    padding-top: 80px;
+    }
+    .expact_section{
+        margin-left: 38px;
+        padding-top: 80px;
+    }
+}
