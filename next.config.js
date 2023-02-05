@@ -6,5 +6,7 @@ module.exports = {
   //     path: '/',
   //  },
 
-}
-
+  images: {
+    domains: ["images.unsplash.com"],
+  },
+};
